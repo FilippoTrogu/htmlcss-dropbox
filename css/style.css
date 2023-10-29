@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    height: 50px;
+    background-color: rgb(216, 240, 240);
+}
+
+
+/* BLOCK, CONTAINER, ROW, CONTENT */
+
+.block{
+    width: 100%;
+    height: 500px;
+}
+
+.container-1400{
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* COLONNE */
+
+.col-33{
+    width: calc(100% / 3 - 10px);
+    height: 200px;
+    background-color: deeppink;
+}
+
+.col-66{
+    width: calc(100% / 3 * 2);
+    height: 200px;
+    background-color: grey;
+}
+
+/* COLORI */
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-orange{
+    background-color: orange;
+}
