@@ -97,8 +97,12 @@ header{
 
 /* PADDING, MARGIN */
 
-.padding-10{
+.padding-5{
     padding: 5px;
+}
+
+.padding-20{
+    padding: 20px;
 }
 
 .margin-l-20{
@@ -115,6 +119,10 @@ header{
 
 .margin-t-50{
     margin-top: 50px;
+}
+
+.margin-t-100{
+    margin-top: 100px;
 }
 
 .padding-r-20{
@@ -140,6 +148,12 @@ header{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .square{
@@ -183,6 +197,15 @@ header{
 
 .business-img{
     width: 360px;
+}
+
+.square-img{
+    width: 190px;
+    filter: invert(1);
+}
+
+#designit-img{
+    width: 250px;
 }
 
 /* IDs */
