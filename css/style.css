@@ -167,6 +167,10 @@ header{
     font-size: larger;
 }
 
+.position-relative{
+    position: relative;
+}
+
 /* IMAGES */
 #jumbo{
     width: 900px;
@@ -184,6 +188,14 @@ header{
     margin-right: 110px;
     color: white;
     background-color: blue;
+}
+
+.prova-gratuita-two{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    right: 50px;
 }
 
 #first-trial{
@@ -213,6 +225,11 @@ li:before {
 
 .content-container{
     max-width: 300px;
+    margin: 0 auto;
+}
+
+.content-container-two{
+    max-width: 1100px;
     margin: 0 auto;
 }
 
