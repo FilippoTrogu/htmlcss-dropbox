@@ -9,7 +9,6 @@
 
 header{
     height: 50px;
-    background-color: rgb(216, 240, 240);
 }
 
 
@@ -17,13 +16,12 @@ header{
 
 .block{
     width: 100%;
-    height: 500px;
+    background-color: rgb(216, 240, 240)
 }
 
-.container-1400{
-    max-width: 1400px;
+.container-1300{
+    max-width: 1300px;
     margin: 0 auto;
-    height: 300px;
     padding-top: 50px;
 }
 
@@ -48,25 +46,19 @@ header{
 /* COLONNE */
 
 .col-33{
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3);
 }
 
 .col-66{
     width: calc(100% / 3 * 2);
-    height: 200px;
-    background-color: grey;
 }
 
 .col-30{
     width: calc(100% / 3 - 20px);
-    height: 300px;
-    background-color: darkgreen;
 }
 
 .col-100{
     width: calc(100% - 20px);
-    height: 200px;
-    background-color: orchid;
 }
 
 .col-60{
@@ -109,6 +101,10 @@ header{
 
 /* PADDING, MARGIN */
 
+.padding-10{
+    padding: 5px;
+}
+
 .margin-l-20{
     margin-left: 20px;
 }
@@ -120,6 +116,23 @@ header{
 .margin-t-20{
     margin-top: 20px;
 }
+
+.margin-t-50{
+    margin-top: 50px;
+}
+
+.padding-r-20{
+    padding-right: 20px;
+}
+
+.padding-l-20{
+    padding-right: 20px;
+}
+
+.padding-b-50{
+    padding-bottom: 50px;
+}
+
 
 /* SQUARES */
 
@@ -134,5 +147,79 @@ header{
     height: calc(100vh / 2 / 2 );
 }
 
+/* PROPERTIES */
+.text-align{
+    text-align: center;
+}
 
+.border-grey{
+    border: 1px solid grey;
+}
+
+.display-block{
+    display: block;
+}
+
+.display-i-block{
+    display: inline-block;
+}
+.font-size-l{
+    font-size: larger;
+}
+
+/* IMAGES */
+#jumbo{
+    width: 900px;
+    height: auto;
+}
+
+
+/* IDs */
+#testo-grande{
+    font-size: 60px;
+}
+
+.prova-gratuita{
+    padding: 10px;
+    margin-right: 110px;
+    color: white;
+    background-color: blue;
+}
+
+#first-trial{
+    margin-right: 210px;
+}
+
+/* LISTA */
+ul{
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding-left: var(--icon-space);
+}
+
+li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: blue;
+    margin-top: 20PX;
+  }
+
+.content-container{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.content-box{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
 
